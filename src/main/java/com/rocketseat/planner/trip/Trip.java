@@ -19,7 +19,6 @@ import java.util.UUID;
 public class Trip {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-
     private UUID id;
 
     @Column(nullable = false)
